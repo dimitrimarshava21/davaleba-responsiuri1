@@ -1,0 +1,477 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+}
+
+
+.contact {
+    display: flex;
+    max-width: 1400px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 96px;
+}
+
+.Subtract {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.Gardens__conteienr {
+    color: #343D33;
+    font-family: Roboto;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.3px;
+    text-transform: uppercase;
+}
+
+.Botanical__Garden {
+    color: #333;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.15px;
+}
+
+.Mist__Gardens {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.contact__us {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.contact__us a {
+    text-decoration: none;
+}
+
+.contact__nave {
+    color: #475F45;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+}
+
+.Membership {
+    display: flex;
+    padding: 15px 30px;
+    border: 2px solid #475F45;
+    background-color: #fff;
+    color: #475F45;
+}
+
+.beatiful__conteiener {
+    display: flex;
+    max-width: 1400px;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-top: 56px;
+}
+
+.adventure__conteiner {
+    display: flex;
+    flex-direction: column;
+}
+
+.beatiful__adventure {
+    color: #343D33;
+
+    font-family: "Libre Baskerville";
+    font-size: 57px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    text-transform: capitalize;
+    width: 528px;
+}
+
+.consectetur__adipiscing {
+    color: #414840;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    text-transform: capitalize;
+    width: 471px;
+    margin-top: 16px;
+}
+
+.button__Tickets {
+    display: flex;
+    gap: 16px;
+    margin-top: 32px;
+
+}
+
+.Buy__Tickets {
+    display: flex;
+    padding: 20px 40px;
+    align-items: center;
+    background: #475F45;
+    color: #FFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+}
+
+.Learn__More__contact {
+    display: flex;
+    padding: 20px 40px;
+    align-items: center;
+    color: #475F45;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.contact__conteiner {
+    display: flex;
+    max-width: 1270px;
+    width: 100%;
+    align-items: center;
+    padding: 15px 96px;
+    flex-direction: column;
+}
+
+.background__conteiner {
+    display: flex;
+    background: #343D33;
+    margin-top: 115px;
+    background-image: url(./plant\ accent\ \(1\).png), url(./Group.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+.plant__conteiner {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 93px;
+}
+
+.consectetur__conteiner {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.adipiscing__conteiner {
+    width: 401px;
+    color: #FFF;
+    margin-top: 16px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.nature__contact {
+    color: #FFF;
+    font-family: "Libre Baskerville";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    width: 417px;
+    text-transform: capitalize;
+}
+
+.Learn__More {
+    padding: 20px 40px;
+    border: 2px solid #FFF;
+    background-color: #343D33;
+    color: #fff;
+    margin-top: 32px;
+}
+
+.seating__conteiner {
+    margin-top: 83px;
+    max-width: 1075px;
+    width: 100%;
+}
+
+.contact__arrow__right {
+    display: flex;
+    flex-direction: column;
+}
+
+.Updates__News {
+    color: #343D33;
+    font-family: "Libre Baskerville";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    text-transform: capitalize;
+}
+
+.updates__conteiner {
+    width: 131px;
+    height: 2px;
+    flex-shrink: 0;
+    opacity: 0.4;
+    background: var(--Primary, #475F45);
+}
+
+.contact__posts__View {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.View__posts {
+    color: #475F45;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+}
+
+.contact__Plants {
+    display: flex;
+    max-width: 1400px;
+    width: 100%;
+    flex-direction: column;
+    padding: 15px 96px;
+}
+
+.contact__dolor__sit {
+    display: flex;
+    margin-top: 48px;
+    gap: 50px;
+}
+
+.featured__contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.consectetur__contact {
+    flex-direction: column;
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+    margin-left: 24px;
+}
+
+.Plants__Around__Us {
+    display: flex;
+    color: #475F45;
+    font-family: "Libre Baskerville";
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+}
+
+.nuncLorem__contact {
+    width: 471px;
+    color: #414840;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.December__contact {
+    color: #343D33;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.big__conteiner {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.blog__img__contact {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.Tincidunt__contact {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.test {
+    width: 630px;
+    height: 1px;
+    background: #C4C4C4;
+}
+
+.contact__facilisis {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 96px;
+    background: #414840;
+    margin-top: 96px;
+}
+
+.contact__Museum {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    width: 100%;
+    padding: 20px 96px;
+}
+
+.conteiner__Gardens {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.contact__Botanical__Garden {
+    display: flex;
+    flex-direction: column;
+}
+
+.Mist__Gardens {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18.896px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.89px;
+    text-transform: uppercase;
+}
+
+.Museum__Botanical {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 12.323px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.123px;
+}
+
+.footer__Subtract {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.adipiscing__elit {
+    width: 269px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.Sitemap__contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: baseline;
+}
+
+.Sitemap {
+    color: #FFF;
+    text-align: center;
+    font-family: "Libre Baskerville";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.contact__footer {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.social__media__icons {
+    display: flex;
+    flex-direction: column;
+}
+
+.Connect__icons {
+    color: #FFF;
+    font-family: "Libre Baskerville";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    text-transform: capitalize;
+}
+
+.social__meida {
+    display: flex;
+    gap: 32px;
+    margin-top: 20px;
+}
+
+.footer__Gardens {
+    width: 100%;
+    height: 80px;
+    background: #343D33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
